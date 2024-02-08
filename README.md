@@ -2,9 +2,18 @@
 
 An online store. Users will be able to add items to their cart. Conventionally, at this point a user is prompted to fill out long forms; leading to cart abandonment. Form fatigue is a major reason why a lot of businesses lose consumers at checkouts. But since we now have a way to mitigate it, let's see how we can create a better user experience.
 
+## Showcase
+
+![image](./public/img/q4.jpg)
+![image](./public/img/q4s1_2.jpg)
+![image](./public/img/q4s1_3.jpg)
+
+
+
 ## Table of Contents
 
 - [AFFINIDI Capstone Project](#affinidi-capstone-project)
+	- [Showcase](#showcase)
 	- [Table of Contents](#table-of-contents)
 	- [Installation](#installation)
 	- [Usage](#usage)
