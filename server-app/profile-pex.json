@@ -261,66 +261,46 @@
   },
 
 	"idTokenMapping": [
-		{
-			"sourceField": "$.credentialSubject.email",
-			"idTokenClaim": "email"
-		},
-		{
-			"sourceField": "$.issuer",
-			"idTokenClaim": "issuer"
-		},
-		{
-			"sourceField": "$.credentialSubject.phoneNumber",
-			"idTokenClaim": "phoneNumber"
-		},
-		{
-			"sourceField": "$.credentialSubject.givenName",
-			"idTokenClaim": "givenName"
-		},
-		{
-			"sourceField": "$.credentialSubject.familyName",
-			"idTokenClaim": "familyName"
-		},
-		{
-			"sourceField": "$.credentialSubject.nickname",
-			"idTokenClaim": "nickname"
-		},
-		{
-			"sourceField": "$.credentialSubject.middleName",
-			"idTokenClaim": "middleName"
-		},
-		{
-			"sourceField": "$.credentialSubject.birthdate",
-			"idTokenClaim": "birthdate"
-		},
-		{
-			"sourceField": "$.credentialSubject.gender",
-			"idTokenClaim": "gender"
-		},
-		{
-			"sourceField": "$.credentialSubject.picture",
-			"idTokenClaim": "picture"
-		},
-		{
-			"sourceField": "$.credentialSubject.formatted",
-			"idTokenClaim": "formatted"
-		},
-		{
-			"sourceField": "$.credentialSubject.locality",
-			"idTokenClaim": "locality"
-		},
-		{
-			"sourceField": "$.credentialSubject.postalCode",
-			"idTokenClaim": "postalCode"
-		},
-		{
-			"sourceField": "$.credentialSubject.country",
-			"idTokenClaim": "country"
-		},
-		{
-			"sourceField": "$.credentialSubject.livenessCheckPassed",
-			"idTokenClaim": "livenessCheckPassed"
-		}
+    {
+      "sourceField": "$.credentialSubject.email",
+      "idTokenClaim": "email",
+      "inputDescriptorId": "email_vc"
+    },
+    {
+      "sourceField": "$.credentialSubject.country",
+      "idTokenClaim": "country",
+      "inputDescriptorId": "country_vc"
+    },
+    {
+      "sourceField": "$.credentialSubject.givenName",
+      "idTokenClaim": "givenName",
+      "inputDescriptorId": "givenname_vc"
+    },
+    {
+      "sourceField": "$.credentialSubject.familyName",
+      "idTokenClaim": "familyName",
+      "inputDescriptorId": "family_vc"
+    },
+    {
+      "sourceField": "$.credentialSubject.phoneNumber",
+      "idTokenClaim": "phoneNumber",
+      "inputDescriptorId": "phone_vc"
+    },
+    {
+      "sourceField": "$.credentialSubject.postalCode",
+      "idTokenClaim": "postalCode",
+      "inputDescriptorId": "postal_vc"
+    },
+    {
+      "sourceField": "$.credentialSubject.streetAddress",
+      "idTokenClaim": "streetAddress",
+      "inputDescriptorId": "address_vc"
+    },
+    {
+      "sourceField": "$.credentialSubject.locality",
+      "idTokenClaim": "locality",
+      "inputDescriptorId": "locality_vc"
+    }
 	],
 	"clientMetadata": {
 		"name": "Create React App",
